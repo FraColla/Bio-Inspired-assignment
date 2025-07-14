@@ -9,7 +9,7 @@
 
 %% SIMULATION OPTIONS
 
-settings.trainAgent          = true;  % true = train from scratch, false = load agent
+settings.trainAgent          = false;  % true = train from scratch, false = load agent
 settings.runParallel         = false;  % parallel pool for RL (works with SAC/DDPG)
 settings.saveResults         = true;   % save figures & MAT‑files
 settings.mainDevice          = "cpu";  % "cpu" or "gpu" for DL networks
